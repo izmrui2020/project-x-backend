@@ -175,6 +175,10 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
+<<<<<<< HEAD
+  devise
+=======
+>>>>>>> d815b2e299736ab63bfd0f7340ae9a6a5ce3bbc4
   devise_token_auth
   listen (~> 3.3)
   omniauth
