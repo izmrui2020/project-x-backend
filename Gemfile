@@ -8,17 +8,10 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'devise_token_auth'
-<<<<<<< HEAD
 gem 'devise'
 gem 'omniauth'
 gem 'rack-cors', :require => 'rack/cors'
-=======
-gem 'omniauth'
-gem 'rack-cors', :require => 'rack/cors'
-
-# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
->>>>>>> d815b2e299736ab63bfd0f7340ae9a6a5ce3bbc4
+gem 'active_model_serializers', '~>0.10.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
